@@ -19,7 +19,7 @@ paintGreetings(username);
 }
 
 function paintGreetings(username) {
-greeting.innerText = `Hello ${username}`;
+greeting.innerText = `Hello ${username}.`;
 greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 // step5. 비어있는 h1 요소안에 `Hello username` 이라는 텍스트 추가
